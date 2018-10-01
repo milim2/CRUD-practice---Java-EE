@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <display-name>w3_2Parameters</display-name>
+  
+  <servlet>
+  <servlet-name>EchoServlet</servlet-name>
+  <servlet-class>com.example.EchoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>EchoServlet</servlet-name>
+  <url-pattern>/EchoServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
