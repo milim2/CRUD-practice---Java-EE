@@ -46,10 +46,10 @@ public class PersonDBUtil {
 				String email = myRs.getString("email");
 				
 				// create new student object
-				Person temoPerson = new Person(firstName, lastName, email);
+				
 				
 				// add it to the list of students
-				personList.add(temoPerson);				
+				personList.add();				
 			}
 			
 			return personList;		
